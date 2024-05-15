@@ -1,0 +1,10 @@
+lire(x);
+i = 1;
+tantque i <= x faire
+    j = 0;
+    tantque j<=3 faire
+        ecrire(j);
+        j = j + 1;
+    fait;
+    i = i + 1;
+fait;

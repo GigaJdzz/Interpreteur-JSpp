@@ -1,0 +1,14 @@
+lire(n);
+lire(N);
+u = N;
+i = 1;
+tantque i <= n faire   
+    modulo = u - (u/2) * 2;
+    si modulo == 0 alors
+        u = u / 2;
+    sinon 
+        u = 3*u + 1;
+    fsi;
+    i = i + 1;
+    ecrire(u);      
+fait;

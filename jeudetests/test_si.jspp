@@ -1,0 +1,6 @@
+lire(x);
+si x < 10 alors 
+    ecrire(x*2);
+sinon 
+    ecrire(x/2);
+fsi;
